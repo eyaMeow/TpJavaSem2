@@ -19,6 +19,7 @@ public class tp7ex3 {
                 System.out.println("donner M[" + i + "," + j + "]");
                 m[i][j] = sc.nextInt();
             }
+            sc.close();
         }
         for (int i = 0; i < nl; i++) {
             int somme = 0;

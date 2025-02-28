@@ -2,7 +2,7 @@ package TP8;
 
 import java.util.Scanner;
 
-public class exerciceStringbuffer {
+public class ex1 {
     public static void main(String[] args) {
         String mot1, mot2;
         StringBuffer texte;
@@ -20,7 +20,8 @@ public class exerciceStringbuffer {
             a = texte.indexOf(mot1);
             b = a + mot1.length();
             texte.replace(a, b, mot2);
-            System.out.println("New phrase: " + texte.toString());
+            System.out.println("New phrase: " + texte);
         }
+        sc.close();
     }
 }

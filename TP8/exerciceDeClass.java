@@ -2,7 +2,7 @@ package TP8;
 
 import java.util.Scanner;
 
-public class exerciceTableau {
+public class exerciceDeClass {
     public static void main(String[] args) {
         String mot1, mot2, texte, t2;
         Scanner sc = new Scanner(System.in);
@@ -18,5 +18,6 @@ public class exerciceTableau {
             t2 = texte.replace(mot1, mot2);
             System.out.println("new phrase: " + t2);
         }
+        sc.close();
     }
 }
