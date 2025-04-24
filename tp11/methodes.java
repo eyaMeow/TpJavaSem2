@@ -112,4 +112,17 @@ public class methodes {
         } while (n < 10);
         return n;
     }
+
+    public static void remplirNormaldouble(int n, double[] t) {
+        Scanner sc = new Scanner(System.in);
+        for (int i = 0; i < n; i++) {
+            System.out.print("donner numero reel " + i + " : ");
+            while (!sc.hasNextDouble()) {
+                System.out.print("Ce n'est pas un reel. Réessayez : ");
+                sc.next();
+            }
+            t[i] = sc.nextDouble();
+
+        }
+    }
 }
