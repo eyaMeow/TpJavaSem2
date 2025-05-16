@@ -125,4 +125,12 @@ public class methodes {
 
         }
     }
+
+    public static double Convertirreeltostring(String chaine) {
+        return Double.parseDouble(chaine);
+    }
+
+    public static String Convertirstringtoreel(double reel) {
+        return Double.toString(reel);
+    }
 }

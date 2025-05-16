@@ -17,7 +17,6 @@ public class ex6 {
         return max;
     }
 
-    // Programme de test
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
